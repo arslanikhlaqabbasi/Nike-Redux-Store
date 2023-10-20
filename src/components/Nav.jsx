@@ -43,7 +43,14 @@ return ()=>{
             </li>
             <li>
                 <button type='button' onClick={onCartToggle}><ShoppingBagIcon className='icon-style'/>
-</button>
+                <div className={`absolute 
+                w-4 h-4 text=[0.65rem]
+                loading-tight flex items-center justify-center
+                top-7 mx-1 text-slate-900 shadow
+                shadow-slate-100 bg-white 
+                font-medium rounded-full 
+                cursor-pointer transition-all 
+                duration-300`}>{totalQTY}</div></button>
             </li>
         </ul>
     </nav>
