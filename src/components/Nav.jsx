@@ -28,7 +28,7 @@ return ()=>{
 }
     },{})
       return (
-<header className={!setNav ?'absolute top-7 left-0 right-0 z-50 opacity-100':'fixed flex items-center blur-effect-theme opacity-70 z-[100] justify-center left-0 right-0 h-[9vh]'}>
+<header className={!setNav ?'absolute top-7 left-0 right-0 z-50 opacity-100':'fixed flex items-center blur-effect-theme  z-[100] justify-center left-0 right-0 h-[9vh]'}>
     <nav className='flex items-center justify-between nike-container'>
         <div className='flex items-center'>
             <img src={logo} alt='img' className='w-16 h-auto'/>
